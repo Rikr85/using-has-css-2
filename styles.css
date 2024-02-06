@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(57, 57, 57);
+    color: white;
+    font-size: 12px;
+}
+
+:is(h2,h3):has(+ :is(h3, h4)) {
+    color: yellow;
+}
